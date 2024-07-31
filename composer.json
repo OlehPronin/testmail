@@ -1,0 +1,21 @@
+{
+    "name": "vendor/app",
+    "description": "this is a cool project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Oleh",
+            "email": "admin@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "erusev/parsedown": "^2.0@beta"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/models"
+        }
+    }
+}
